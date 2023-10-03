@@ -93,19 +93,24 @@ table button{
     color: #fff;
     display: block;
     font-size: 0.3in;
+    background-size: auto;
     padding-left: 0px;
+    padding: 10px 50px;
+    justify-content: center;
    }
    .banner aside table{
     margin: 10px 10px;
+    align-self: center;
    }
    .banner main{
-    margin: 10px 60px;
+    margin: 10px 10px;
    }
    .container{
-    margin: 0px 0px!important;
+    margin: 10px 10px!important;
    }
-   .container .div1 p{
+   .container .div1 p,h2{
     width:100% !important;
+    margin: 5px;
    }
    .div1{
     width: 100% !important;
@@ -140,168 +145,16 @@ display: block;}
     width: 100%;
     height: auto;
     padding-left: 0px !important;
+    margin:5px;
     }
 .content2 .row1 .contents .data1{ 
     width: 100%;
     height: auto;
     padding-top: 0px;
     padding-left: 0px;
+    margin:10px;
 }
 footer{
     margin-top: 0px !important;
 }
-}
-@media screen and(max-width:768px) {
-    header{
-        display: block;
-        padding: 10px 100px;
-        height: auto;
-        line-height: none;
-        justify-content: center;
-       }
-       header h2{
-        width: 100% !important;
-        height: auto;
-       }
-       .banner{
-        height: auto; 
-        width: 100%;
-        color: #fff;
-        display: block;
-        font-size: 0.3in;
-        padding-left: 0px;
-       }
-       .banner aside table{
-        margin: 10px 10px;
-       }
-       .banner main{
-        margin: 10px 60px;
-       }
-       .container{
-        margin: 0px 0px!important;
-       }
-       .container .div1 p{
-        width:100% !important;
-       }
-       .div1{
-        width: 100% !important;
-        display: block !important;
-       }
-       .content{
-        margin-left: 0px;
-       }
-       .container p,img{
-        width: 100% !important;}
-       .container .div1{
-        display: block;
-        width: 100% !important;
-        height: auto;
-        padding:0px !important;
-        margin: 0px !important;
-       }
-       .about {
-        width: 100%;
-        height: auto;
-       }
-       .about p,h2{
-       padding: 0px !important;
-       padding-bottom: 0px !important;
-       }
-    .content2{
-    margin-left: 0px !important;
-    }
-    .content2 .row1 .contents{
-    display: block;}
-    .content2 .row1 .contents img{
-        width: 100%;
-        height: auto;
-        padding-left: 0px !important;
-        }
-    .content2 .row1 .contents .data1{ 
-        width: 100%;
-        height: auto;
-        padding-top: 0px;
-        padding-left: 0px;
-    }
-    footer{
-        margin-top: 0px !important;
-    }
-    
-}
-@media screen and (max-width:576px) {
-    header{
-        display: block;
-        padding: 10px 100px;
-        height: auto;
-        line-height: none;
-        justify-content: center;
-       }
-       header h2{
-        width: 100% !important;
-        height: auto;
-       }
-       .banner{
-        height: auto; 
-        width: 100%;
-        color: #fff;
-        display: block;
-        font-size: 0.3in;
-        padding-left: 0px;
-       }
-       .banner aside table{
-        margin: 10px 10px;
-       }
-       .banner main{
-        margin: 10px 60px;
-       }
-       .container{
-        margin: 0px 0px!important;
-       }
-       .container .div1 p{
-        width:100% !important;
-       }
-       .div1{
-        width: 100% !important;
-        display: block !important;
-       }
-       .content{
-        margin-left: 0px;
-       }
-       .container p,img{
-        width: 100% !important;}
-       .container .div1{
-        display: block;
-        width: 100% !important;
-        height: auto;
-        padding:0px !important;
-        margin: 0px !important;
-       }
-       .about {
-        width: 100%;
-        height: auto;
-       }
-       .about p,h2{
-       padding: 0px !important;
-       padding-bottom: 0px !important;
-       }
-    .content2{
-    margin-left: 0px !important;
-    }
-    .content2 .row1 .contents{
-    display: block;}
-    .content2 .row1 .contents img{
-        width: 100%;
-        height: auto;
-        padding-left: 0px !important;
-        }
-    .content2 .row1 .contents .data1{ 
-        width: 100%;
-        height: auto;
-        padding-top: 0px;
-        padding-left: 0px;
-    }
-    footer{
-        margin-top: 0px !important;
-    }
-    
 }
