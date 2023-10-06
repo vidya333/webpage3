@@ -91,12 +91,18 @@ table button{
     text-transform: uppercase;
    }
    main h1{
+<<<<<<< HEAD
     font-size: 40px ;
     font-weight: 100 !important;}
    main h2{
     font-size: 40px ;
     font-weight: 100 !important;
     margin:0px !important;}
+=======
+    font-size: 40px ;font-weight: 100 !important;}
+   main h2{
+    font-size: 40px ;font-weight: 100 !important;margin:0px !important;}
+>>>>>>> ce20732db9aab59cd3fae3cd9dfcb901cd53daa4
    header h2{
     font-size: 17px;}
    .banner{
