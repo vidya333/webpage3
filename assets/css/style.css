@@ -113,7 +113,7 @@ table button{
    }
    .banner aside table{
     height: auto;
-    width: 100%;
+    width: 50%;
     margin: 10px 10px;
     align-self: center;
    }
@@ -178,4 +178,68 @@ footer{width: 97%;margin-left: 10px;
     margin-top: 0px !important;
 }
 }
-
+@media screen and (max-width:768px) {
+    .banner aside table{
+        height: auto;
+        width: 50%;
+        margin: 10px 10px;
+        align-self: center;
+       }
+     header{padding: 3px 10px !important;}
+    .banner{padding: 10px 10px !important;}
+}
+@media screen and (max-width:715px) {
+    .banner aside table{
+        height: auto;
+        width: 70%;
+        margin: 10px 10px;
+        align-self: center;
+       }
+}
+@media screen and (max-width:592px) {
+    header{
+        padding: 3px 10px !important;
+    }
+}
+@media screen and (max-width:576px) {
+    .banner aside table{
+        height: auto;
+        width: 60%;
+        margin: 10px 10px;
+        align-self: center;
+       }
+}
+@media screen and (max-width:566px) {
+    .banner aside table{
+        height: auto;
+        width: 70%;
+        margin: 10px 10px;
+        align-self: center;
+       }
+}
+@media screen and (max-width:476px) {
+    .banner aside table{
+        height: auto;
+        width: 70%;
+        margin: 5px 5px;
+        align-self: center;
+       }
+       .banner main{
+        height: auto;
+        width: 100%;
+        margin: 0px 0px !important;
+       }
+}
+@media screen and (max-width:444px) {
+    .banner aside table th{
+        font-size: 20px !important;
+    }
+    main h1{
+        font-size: 30px ;font-weight: 100 !important;padding-left: 10px;}
+    main h2{
+        font-size: 30px ;font-weight: 100 !important;margin:0px !important;padding-left: 10px !important;
+        margin-bottom: 10px !important;}
+    main big{
+        padding-left: 10px !important;font-size: 24px !important;
+    }
+}
