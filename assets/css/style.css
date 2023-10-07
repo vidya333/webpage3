@@ -75,7 +75,7 @@ table button{
     padding-top: 130px;
     padding-left: 90px;
 }
-
+/* responsive dimensions */
 @media  screen and (max-width:991px) {
    header{
     display: block;
@@ -109,11 +109,11 @@ table button{
     justify-content: center;
    }
    .banner aside{
-    width:100%;height: auto;
+    width:100%;
    }
    .banner aside table{
     height: auto;
-    /* width: 100%; */
+    width: 100%;
     margin: 10px 10px;
     align-self: center;
    }
