@@ -108,6 +108,9 @@ table button{
     padding: 10px 50px;
     justify-content: center;
    }
+   .banner aside{
+    width:100%;
+   }
    .banner aside table{
     height: auto;
     width: 100%;
